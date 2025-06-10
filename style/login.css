@@ -50,4 +50,10 @@ main {
 
 #form h1 {
     text-align: center;
+    padding-bottom: 10px;
 }
+
+#form p {
+    font-size: 0.95em;
+}
+
