@@ -6,6 +6,7 @@
     <title>Login</title>
     <link rel="stylesheet" href="style/login.css">
     <link rel="stylesheet" href="style/media-query.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round" rel="stylesheet" />
 </head>
 <body>
     <main>
@@ -16,8 +17,24 @@
             <div id="form">
                 <h1>Login</h1>
                 <p>Seja bem vindo(a) novamente. Faça login para acessar sua conta e fazer as configurações no seu ambiente.</p>
-                <form action="login.php" method="post">
+                <form action="login.php" autocomplete="on" method="post">
+                    <div class="campo"> 
+                        <span class="material-icons-round">person</span>
+                        <input type="email" name="mail" id="iemail"  autocomplete="email" placeholder="seu email" required>
+                        <label for="iemail">Email</label>
+                    </div>
 
+                    <div class="campo">
+                        <span class="material-icons-round">vpn_key</span>
+                        <input type="password" name="senha" autocomplete="current-password" id="isenha" placeholder="sua senha" required minlength="8" max="20">
+                        <label for="isenha">Senha</label>
+                    </div>
+                    <input id="entrar" type="submit" value="Entrar">
+                    <div id="esqueci-senha">
+                        <a href="esqueci.html">
+                            Esqueci a senha <span class="material-icons-round">email</span>
+                        </a>
+                    </div>
                 </form>
             </div>
         </section>

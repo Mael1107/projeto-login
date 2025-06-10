@@ -57,3 +57,38 @@ main {
     font-size: 0.95em;
 }
 
+.campo input {
+    float: right;
+    width: 80%;
+    background-color: #73CFD9;
+    border: 2px solid #00393f;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#entrar {
+    width: 100%;
+    background-color: #73CFD9;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid #00393f;
+}
+
+.campo input:focus {
+    background-color: #9ee2e9;
+}
+
+#esqueci-senha {
+    background-color: transparent;;
+    border: 2px solid #00393f;
+    text-align: center;
+    padding: 5px;
+}
+
+#esqueci-senha a {
+    text-decoration: none;
+    color: #016671;
+}
+
+
