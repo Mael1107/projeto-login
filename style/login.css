@@ -25,7 +25,7 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    height: 500px;
+    height: 510px;
     width: 300px;
     border-radius: 20px;
     overflow: hidden;
@@ -48,42 +48,40 @@ main {
     display: block;
 }
 
+#form label {
+    display: none;
+}
+
 #form h1 {
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 #form p {
     font-size: 0.95em;
-}
-
-.campo input {
-    float: right;
-    width: 80%;
-    background-color: #73CFD9;
-    border: 2px solid #00393f;
-    border-radius: 5px;
-    padding: 5px;
+    padding-bottom: 5px
 }
 
 #entrar {
     width: 100%;
+    height: 40px;
     background-color: #73CFD9;
-    padding: 5px;
     color: white;
     border-radius: 5px;
     border: 2px solid #00393f;
-}
-
-.campo input:focus {
-    background-color: #9ee2e9;
+    display: block;
+    font-size: 1.2em;
 }
 
 #esqueci-senha {
     background-color: transparent;;
-    border: 2px solid #00393f;
+    border: 1px solid #00393f;
+    display: block;
     text-align: center;
-    padding: 5px;
+    margin-top:5px;
+    border-radius: 5px;
+    padding: 3px;
+    height: 40px;
 }
 
 #esqueci-senha a {
@@ -91,4 +89,42 @@ main {
     color: #016671;
 }
 
+#esqueci-senha:hover {
+    background-color: #daf4f7;
+}
+#mail {
+    font-size: 0.9em;
+}
+
+#entrar:hover {
+    background-color: #57a0a9;
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.campo {
+    background-color: #73CFD9;
+    border: 2px solid #00393f;
+    border-radius: 5px;
+    margin: 5px 0px;
+    padding: 5px;
+}
+
+.campo input {
+    background-color: #4db8c6;
+    border-radius: 5px;
+    width: 80%;
+    padding: 5px;
+    font-size: 1em;
+    height: 100%;
+}
+.campo input:focus {
+    background-color: #9ee2e9;
+}
+
+#person-ico, #key-ico {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+}
 
